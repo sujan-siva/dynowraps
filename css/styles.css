@@ -1,0 +1,181 @@
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Title */
+
+.dynowraps{
+  height: 5rem;
+  max-width: 80%;
+}
+
+.intro-camero {
+  height: 25rem;
+  max-width: 100%;
+}
+
+#title {
+  text-align: left;
+}
+
+/* Sections */
+
+.coloured-section {
+  background-color: #495664;
+  color: #fff;
+}
+
+.white-section {
+  color: #000;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1% 10%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+
+}
+
+/* Buttons */
+.contactme {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon{
+  color: #495664;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #84a9ac
+}
+
+.feature-para{
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 10%;
+}
+
+.testimonial-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  height: 70rem;
+}
+
+/* Press  */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.car-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.pricing-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.price-card{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 991px) {
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+}
+
+/* Call to Action */
+
+.projectsHeading {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 4%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 5% 20%;
+}
+
+.soc-media {
+  margin: 1% 1% 4%;
+  color: #495664;
+}
+
+.soc-media:hover {
+  color: #84a9ac
+}
